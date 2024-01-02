@@ -6,6 +6,11 @@ ext=${file##*.}
 
 # Compile the Rust code if the extension is "rs"
 if [[ $ext == "rs" ]]; then
+  echo "Compiling Rust code..."
 	rustc "$file" -o "bin/rust_$file"
+  echo "Running Rust code..."
 	./bin/rust_$file
+elif [[ $ext == "py" ]]; then
+  echo "Running Python code..."
+  python3 "$file"
 fi
