@@ -1,0 +1,24 @@
+{
+  "crates": [
+    {
+      "root_module": "afjormun.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "ameriskur.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "asciikassi.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "akureyri.rs",
+      "edition": "2018",
+      "deps": []
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+# Get the filename and extension from the user
+file=$1
+ext=${file##*.}
+
+# Compile the Rust code if the extension is "rs"
+if [[ $ext == "rs" ]]; then
+	rustc "$file" -o "bin/rust_$file"
+	./bin/rust_$file
+fi
