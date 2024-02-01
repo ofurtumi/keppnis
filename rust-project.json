@@ -19,6 +19,31 @@
       "root_module": "akureyri.rs",
       "edition": "2018",
       "deps": []
+    },
+    {
+      "root_module": "cold.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "distinctivecharacter.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "bootstrappingnumber.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "test.rs",
+      "edition": "2018",
+      "deps": []
+    },
+    {
+      "root_module": "bootstrappingnumber.rs",
+      "edition": "2018",
+      "deps": []
     }
   ]
 }
